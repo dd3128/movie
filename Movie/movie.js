@@ -49,7 +49,7 @@ class MovieDetailList {
 let firstMovieIndex = null
 let secondMovieIndex = null
 
-// Create an array to store movie screenings
+// Create an array to store movies
 const screenings = [
   new MovieDetailList('./images/transformers.jpg', 'Transformers', 100),
   new MovieDetailList('./images/spiderman.jpg', 'Spider-Man', 90),
