@@ -25,3 +25,5 @@ Languages and Tools:
 - The program is implemented in JavaScript and HTML/CSS.
 
 Feel free to ask me any questions about your specific Code Assessment requirements.
+
+If you want to clean the data, please go to settings and click Cookie and Site Data, then clean. 
