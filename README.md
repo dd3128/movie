@@ -1,4 +1,4 @@
-# movie
+# Movie
 Coding Assessment - Movie Sale Tickets
 
 Please let me know if you are not able to access it. 
