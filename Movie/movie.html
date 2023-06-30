@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Box Office</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+  </head>
+
+  <body>
+    <div class="tickets-sale">
+      <img src="./images/logo.jpg" alt="theater" class="logo"/>
+      <h1>Welcome to Rochester Theater</h1>
+      <!-- <img src="./images/movie.jpeg" alt="theater" /> -->
+      <div class="screens">
+        <h2>Movies</h2>
+        <div id="screeningsList" class="movie-list">
+          <!-- display movie list -->
+        </div>
+      </div>
+      <div class="modify">
+        <button onclick="turnOnSwapMode()">Swap Mode</button>
+        <button onclick="salesReport()">Sale Report</button>
+        <button onclick="printSalesReport()">Print Report</button>
+      </div>
+    </div>
+    <script src="./movie.js"></script>
+  </body>
+</html>

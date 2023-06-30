@@ -1,0 +1,88 @@
+* {
+  font-size: 20px;
+  color: white;
+  /* box-sizing: border-box; */
+}
+
+body {
+  margin: 40px;
+  text-align: center;
+  background-image: url("../images/back.jpeg");
+}
+
+.tickets-sale {
+  margin: auto;
+  width: 80%;
+  border: 4px solid orange;
+  border-radius: 20px;
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  filter: drop-shadow(5px 5px 5px darkorange)
+}
+
+img {
+  width: 40%;
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.movie-list {
+  list-style: none;
+  margin: 1%;
+}
+
+button {
+  color: #000;
+  margin: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.movie-list {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-item {
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.movie-item:hover {
+  background-color: #562a2a;
+}
+
+.movie-image {
+  width: 200px;
+  height: 300px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tickets-left {
+  font-style: italic;
+  font-size: 25px;
+}
