@@ -1,7 +1,7 @@
 # Movie
 Coding Assessment - Movie Sale Tickets
 
-Please let me know if you are not able to access it. 
+Please let me know if you are able to access it. 
 
 This program is designed to handle ticket sales for a theater with five screens, including Transformers, Spider-Man, The Flash, Fast X, and Guardians of the Galaxy. It provides a user-friendly interface to manage ticket sales, track available tickets, generate sales reports, and print sales reports.
 
