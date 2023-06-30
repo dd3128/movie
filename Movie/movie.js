@@ -142,9 +142,9 @@ function displayScreenings() {
 // Change image click listen to swap ticket
 function turnOnSwapMode() {
   alert('Swap mode is on. Please select a movie to swap.')
-  let images = document.getElementsByClassName('movie-image')
-  for (let i = 0; i < images.length; i++) {
-    images[i].onclick = () => selectMovieForSwap(i)
+  let img = document.getElementsByClassName('movie-image')
+  for (let i = 0; i < img.length; i++) {
+    img[i].onclick = () => selectMovieForSwap(i)
   }
 }
 
@@ -157,7 +157,7 @@ function selectMovieForSwap(index) {
   } else if (secondMovieIndex === null) {
     // Second movie selected
     secondMovieIndex = index
-    swapMovies(firstMovieIndex, secondMovieIndex) // Call swapMovies with the selected movie indices
+    swapMovies(firstMovieIndex, secondMovieIndex) // Call swapMovies with the selected movie to swap
     firstMovieIndex = null
     secondMovieIndex = null
   }
