@@ -8,16 +8,19 @@ class MovieDetailList {
 
   // Method to sell tickets
   sellTickets(numTickets) {
+    // Check if tickets are sold out
     if (this.ticketsSold >= this.ticketLimit) {
       alert(`Sorry, all tickets for ${this.movieName} are sold out.`)
       return
     }
 
+    // Check if the number of tickets is valid
     if (isNaN(numTickets) || numTickets <= 0) {
       alert(`Please enter a valid number of tickets. Thank you!`)
       return
     }
 
+    // Check if the number of tickets is more than the limit
     if (this.ticketsSold + numTickets > this.ticketLimit) {
       alert(
         `Sorry, there are only ${
@@ -27,6 +30,7 @@ class MovieDetailList {
       return
     }
 
+    // Sell tickets
     this.ticketsSold += numTickets
     alert(
       `You have purchased ${numTickets} tickets for ${this.movieName}. Thank you!`
